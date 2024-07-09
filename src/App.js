@@ -1,3 +1,4 @@
+//working on header of app
 import './App.css';
 
 function App() {
@@ -19,6 +20,20 @@ function App() {
         <button className = "Connect-wallet">Connect Wallet</button>
       </div>
     </header>
+
+    <footer className="footer">
+        <div><b>Top Witness</b></div>
+        <div className="witlist">
+          <div className="witness-item">1 <div className="profile-pic1"> <img src={"profile-icon.svg"} alt="icon" /> </div>Olivia</div>
+          <div className="witness-item">2 <div className="profile-pic1"> <img src={"profile-icon.svg"} alt="icon" /> </div>Jeff</div>
+          <div className="witness-item">3 <div className="profile-pic1"> <img src={"profile-icon.svg"} alt="icon" /> </div>Amrit</div>
+          <div className="witness-item">4 <div className="profile-pic1"> <img src={"profile-icon.svg"} alt="icon" /> </div>Ammy</div>
+          <div className="witness-item">5 <div className="profile-pic1"> <img src={"profile-icon.svg"} alt="icon" /> </div>Joe</div>
+          </div>
+          <div>
+            <a href="/" className="view-all">View All</a>
+          </div>
+    </footer>
     </div>
   );
 }
