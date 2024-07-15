@@ -1,5 +1,3 @@
-
-
 .upload-page {
   font-family: Arial, sans-serif;
   padding: 20px;
@@ -58,29 +56,67 @@
   cursor: pointer;
 }
 
-.footer{
-  display : flex;
+.heading2 {
+  margin-left: 20px;
+}
+
+.main-upload {
+  background-color: white;
+  box-shadow: 5px 5px 10px grey;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.upload-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
+  margin-bottom: 20px;
+}
+
+.upload-icon {
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.Browse {
+  background-color: #ff5c5c;
+  color: white;
+  padding: 15px 25px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 209px;
+}
+
+.footer {
+  display: flex;
   justify-content: space-around;
   align-items: center;
   background-color: white;
-  width : 50%;
+  width: 50%;
   padding: 5px;
-  margin-left : 500px;
+  margin-left: 500px;
   border-radius: 5px;
- 
+
 }
 
-.witlist{
-  display : flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.witness-item{
+.witlist {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-left : 15px;
+}
+
+.witness-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 15px;
 }
 
 .profile-pic1 {
