@@ -1,129 +1,162 @@
 .upload-page {
-  font-family: Arial, sans-serif;
-  padding: 20px;
-  background-image: url("background.jpg");
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-image: url("background.jpg");
 }
 
 .header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-left: 70px;
-  margin-right: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 70px;
+    margin-right: 70px;
 }
 
 .left-side {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .profile-pic {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  margin-right: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 20px;
 }
 
 .camera-icon {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  padding-top: 15px;
-  align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding-top: 15px;
+    align-items: center;
 }
 
 
 .search-box {
-  border-radius: 15px;
-  width: 500px;
-  height: 30px;
-  border: 1px solid red;
-  background: transparent;
+    border-radius: 15px;
+    width: 500px;
+    height: 30px;
+    border: 1px solid red;
+    background: transparent;
 }
 
 .serach-box::placeholder {
-  color: black;
-  text-align: center;
+    color: black;
+    text-align: center;
 }
 
 .Connect-wallet {
-  background-color: #ff5c5c;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+    background-color: #ff5c5c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 .heading2 {
-  margin-left: 20px;
+    margin-left: 20px;
 }
 
 .main-upload {
-  background-color: white;
-  box-shadow: 5px 5px 10px grey;
-  margin-left: 80px;
-  margin-right: 80px;
-  margin-top: 30px;
-  margin-bottom: 20px;
+    background-color: white;
+    box-shadow: 5px 5px 10px grey;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 .upload-area {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 120px;
-  margin-bottom: 20px;
-}
-
-.upload-icon {
-  align-items: center;
-  padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    margin-bottom: 20px;
 }
 
 .Browse {
-  background-color: #ff5c5c;
-  color: white;
-  padding: 15px 25px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  margin-top: 20px;
-  margin-bottom: 209px;
+    background-color: #ff5c5c;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 209px;
 }
 
 .footer {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: white;
-  width: 50%;
-  padding: 5px;
-  margin-left: 500px;
-  border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    padding: 5px;
+    margin-left: 80px;
+    margin-right: 80px;
+    border-radius: 5px;
 
 }
 
 .witlist {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .witness-item {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-left: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 15px;
 }
 
 .profile-pic1 {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  margin-right: 5px;
-  margin-left: 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-left: 5px;
 
+}
+
+svg {
+    width: 120px;
+    transform-origin: center;
+    animation: rotate4 4s linear infinite;
+}
+
+circle {
+    fill: none;
+    stroke: hsl(0, 93%, 51%);
+    stroke-width: 2;
+    stroke-dasharray: 10, 200;
+    stroke-dashoffset: 0;
+    stroke-linecap: round;
+    animation: dash4 1.5s ease-in-out infinite;
+}
+
+@keyframes rotate4 {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes dash4 {
+    0% {
+        stroke-dasharray: 1, 200;
+        stroke-dashoffset: 0;
+    }
+
+    50% {
+        stroke-dasharray: 90, 200;
+        stroke-dashoffset: -35px;
+    }
+
+    100% {
+        stroke-dashoffset: -125px;
+    }
 }

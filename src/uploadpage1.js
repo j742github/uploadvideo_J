@@ -24,16 +24,14 @@ function App() {
       <div className="main-upload">
         <h2 className="heading2">Upload a Video</h2>
         <div className="upload-area">
-          <svg viewBox="25 25 50 50">
-            <circle r="20" cy="50" cx="50"></circle>
-          </svg>
-          <h2>Uploading</h2>
+          <div className="upload-icon"><img src={"upload.svg"} alt="upload-icon" /></div>
+          <h2>Drag & Drop file you want to upload</h2>
           <div className="Browse-button">
             <button className="Browse">Browse-button</button>
           </div>
         </div>
       </div>
-
+      
       <footer className="footer">
         <div><b>Top Witness</b></div>
         <div className="witlist">
