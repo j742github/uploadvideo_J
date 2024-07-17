@@ -14,6 +14,7 @@ function App() {
           </div>
         </div>
         <div className="search-bar">
+          <div className="search-icon" ><img src={"searchicon.png"} alt="icon"/></div>
           <input className="search-box" type="text" placeholder="Search Challenge Collection" />
         </div>
         <div className="wallet-button">

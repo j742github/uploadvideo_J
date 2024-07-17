@@ -34,12 +34,24 @@
 }
 
 
-.search-box {
+.search-bar {
+  display: flex;
   border-radius: 15px;
   width: 500px;
   height: 30px;
   border: 1px solid red;
   background: transparent;
+}
+
+.search-box {
+  border: none;
+  width: 500px;
+  margin-left: 50px;
+  background: transparent;
+}
+
+.search-icon {
+  margin-left: 100px;
 }
 
 .serach-box::placeholder {
