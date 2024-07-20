@@ -34,7 +34,7 @@
 }
 
 .search-bar {
-    display : flex;
+    display: flex;
     border-radius: 15px;
     width: 500px;
     height: 30px;
@@ -42,23 +42,24 @@
     background: transparent;
 }
 
- .search-box {
+.search-box {
     border: none;
     width: 500px;
-    margin-left : 50px;
+    margin-left: 50px;
     background: transparent;
 }
 
-.search-icon{
-    margin-left:100px;
+.search-icon {
+    margin-left: 100px;
 }
+
 .serach-box::placeholder {
     color: black;
     text-align: center;
 }
 
-.uploadingtext{
-    margin-top:50px;
+.uploadingtext {
+    margin-top: 50px;
 }
 
 .Connect-wallet {
@@ -83,11 +84,6 @@
     margin-bottom: 60px;
 }
 
-.columns{
-    display:flex;
-    flex-direction:row;
-    justify-content:space-between;
-}
 .upload-area {
     display: flex;
     flex-direction: column;
