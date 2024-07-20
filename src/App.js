@@ -25,8 +25,15 @@ function App() {
       <div className="main-upload">
         <h2 className="heading2">Upload a Video</h2>
         <div className="columns">
+          <div className="column1">
           <div>Details</div>
+          <div>Title</div>
+          <div>input box</div>
+          </div>
+          <div className="column2">
           <div>Preview</div>
+          <div>Preview Box</div>
+          </div>
         </div>
       </div>
 
